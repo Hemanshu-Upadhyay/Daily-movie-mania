@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+.banner iframe{
+    width: 100%;
+    height: 100vh;
+}
+
+.banner .heading{
+    font-family: 'Potta One', cursive;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 120vh;
+    top: 22%;
+    right: 1.5%;
+    background-color: rgba(12, 4, 12, 0.500);
+}
+
+.banner .heading h2{
+    font-size: 1.5rem;
+    color: silver;
+}
+
+.banner .sub-heading{
+    position: absolute;
+    top: 40%;
+    right: 25%;
+}
+
+.banner .title {
+    font-size: 5rem;
+    color: rgb(153, 6, 6);
+}
+.banner .title:hover {
+    font-size: 5.1rem;
+    transition: 0.5s ease-in;
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .banner iframe{
+        width: 100%;
+        height: 80vh;
+    }
+    .banner .heading{
+        width: 100%;
+        height: 80vh;
+        top:12% ;
+    }
+
+    .banner .sub-heading{
+        top: 65%;
+        right: 1%;
+    }
+
+    .banner .heading h1{
+        font-size: 1.5rem;
+    }
+    .banner .heading h2{
+        font-size: 1rem;
+    }
+    .banner .title:hover {
+        font-size: 1.6rem;
+    }
+  }
+
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .banner iframe{
+        width: 100%;
+        height: 60vh;
+    }
+    .banner .heading{
+        width: 100%;
+        height: 60vh;
+    }
+    .banner .heading h1{
+        font-size: 1.5rem;
+    }
+    .banner .heading h2{
+        font-size: 1rem;
+    }
+    .banner .title:hover {
+        font-size: 1.6rem;
+    }
+
+    .banner .sub-heading{
+        top: 65%;
+        right: 1%;
+    }
+  }

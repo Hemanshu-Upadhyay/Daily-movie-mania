@@ -1,0 +1,257 @@
+
+body{
+    background:url(../Images/back.jpg);
+    height: 100%;
+    content: "";
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* opacity: 0.93; */
+}
+
+.main-container{
+    height: 100%;
+    content: "";
+    /* background: url(./Images/movieBG2.jpg); */
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(12, 4, 12, 0.3);
+    backdrop-filter: blur(5px);
+    color: white;
+    
+}
+input{
+    width: 50%;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+input::placeholder{
+  font-size: 23px;
+}
+
+input:focus{
+    outline: none;
+}
+/* .trending{
+    background-color: rgb(12, 4, 12);
+} */
+
+button a{
+    color: black;
+    font-weight: bold;
+}
+button{
+    background-color: teal;
+    border-radius: 20px;
+}
+img :hover{
+  transform: scaleX(1.52);
+}
+.trending h4{
+    color: white;
+}
+.trending h1{
+    text-align: center;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+h2{
+  font-size: 20px;
+}
+a:hover{
+    font-size: 19px;
+    transition: 0.5s;
+}
+
+p{
+  font-size: 18px;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgb(2, 71, 88); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3284aa; 
+  }
+
+  .myButton::after{
+    background: #3284aa; 
+    color: white;
+    border-radius: 50px;
+  }
+
+  @media only screen and (max-width:800px) {
+    .responsive {
+         width: 100%;
+         padding: 0;
+    } 
+    .responsive h2{
+      font-size: 20px;
+    }
+    .main,.right{
+      width: 100%;
+    }
+    h1{
+      font-size: 20px;
+    }
+    
+    input::placeholder{
+      font-size: 15px;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    .responsive{
+      width: 100%;
+    }
+    .responsive img{
+      width: 70%;
+    }
+    .responsive h2 {
+      font-size: 20px;
+    }
+    .responsive h4{
+      font-size: 15px;
+    }
+    h1{
+      font-size: 25px;
+    }
+    h2{
+      font-size: 15px;
+    }
+    p{
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    .menu{
+      width: 60%;
+    }
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+    .scroll{
+      margin-left: 20px;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+    .scroll{
+      margin-top: 250px;
+    }
+    input{
+      width: 80%;
+    }
+    input::placeholder{
+      font-size: 18px;
+    }
+  }
+
+  .sub {
+   background-color:rgba(12, 4, 12, 0.700);
+   backdrop-filter:blur(5px);
+ }
+ .main {
+   float: left;
+   width: 30%;
+   margin-top: 20px;
+   padding: 0 20px;
+   overflow: hidden;
+ }
+ .right {
+   float: left;
+   width: 50%;
+   padding: 10px 15px;
+   margin-top: 7px;
+ }
+ 
+ @media only screen and (max-width:800px) {
+   /* For tablets: */
+   .main {
+     width: 100%;
+     padding: 0;
+     
+   }
+   .right {
+     width: 100%;
+   }
+   .header{
+    display: block;
+  }
+  header{
+    display: block;
+  }
+ }
+ @media only screen and (max-width:500px) {
+   /* For mobile phones: */
+   .menu, .main, .right {
+     width: 100%;
+   }
+   .header{
+     display: block;
+   }
+   header{
+    display: block;
+  }
+ }
+header{
+  width: 100%;
+}
+
+.iframe {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 40%; 
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
